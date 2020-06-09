@@ -1,0 +1,35 @@
+@media (min-width: 1034px) {
+  .card {
+    margin-right: 300px;
+    margin-left: 300px;
+    padding: 20px;
+    opacity: 0.9;
+  }
+}
+
+@media (max-width: 1033px) {
+  .card {
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 20px;
+    opacity: 0.9;
+  }
+}
+
+@media (max-width: 1020px) {
+  .card {
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 20px;
+    opacity: 0.9;
+  }
+}
+
+@media (max-width: 542px) {
+    .card {
+      margin-right: 50px;
+      margin-left: 50px;
+      padding: 20px;
+      opacity: 0.9;
+    }
+  }

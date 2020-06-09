@@ -16,7 +16,7 @@
       crossorigin="anonymous"
     />
 
-    <title>Enkrypt</title>
+    <title>Enkrypt-Results</title>
   </head>
   <body class="bg-primary">
     <h2
@@ -38,54 +38,23 @@
               style="opacity: 1;"
               for="inputEmail3"
               class="col-sm-2 col-form-label"
-              >Text :</label
+              >Result :</label
             >
             <div class="col-sm-10">
               <input
+                class="form-control"
                 type="text"
-                class="form-control rounded-0"
-                id="inputEmail3"
+                placeholder="Readonly input here..."
+                readonly
               />
             </div>
           </div>
           <br />
-          <fieldset class="form-group">
-            <div class="row">
-              <legend class="col-form-label col-sm-2 pt-0">Task :</legend>
-              <div class="col-sm-10">
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="radio"
-                    name="gridRadios"
-                    id="gridRadios1"
-                    value="encrypt"
-                    checked
-                  />
-                  <label class="form-check-label" for="gridRadios1">
-                    Encrypt
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="radio"
-                    name="gridRadios"
-                    id="gridRadios2"
-                    value="decrypt"
-                  />
-                  <label class="form-check-label" for="gridRadios2">
-                    Decrypt
-                  </label>
-                </div>
-              </div>
-            </div>
-          </fieldset>
 
           <div class="form-group row">
             <div class="col-sm-10">
               <button type="submit" class="btn btn-primary rounded-0">
-                Start
+                Back
               </button>
             </div>
           </div>
