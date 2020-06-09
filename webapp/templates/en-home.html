@@ -6,6 +6,10 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
 
     <link rel="stylesheet" href="../static/en-styles.css" />
@@ -24,7 +28,7 @@
         text-align: center;
         padding-top: 20px;
         font-size: 50px;
-        font-family: Century Gothic;
+        font-family: 'Audiowide', cursive;
         color: white;
       "
     >
@@ -32,7 +36,7 @@
     </h2>
     <div class="card rounded-0">
       <div style="opacity: 0.9;" class="abc">
-        <form style="opacity: 1;">
+        <form style="opacity: 1;" action="/enkrypt_details" method="POST">
           <div style="opacity: 0.9;" class="form-group row">
             <label
               style="opacity: 1;"
@@ -42,6 +46,7 @@
             >
             <div class="col-sm-10">
               <input
+                name="text"
                 type="text"
                 class="form-control rounded-0"
                 id="inputEmail3"
@@ -85,7 +90,7 @@
           <div class="form-group row">
             <div class="col-sm-10">
               <button type="submit" class="btn btn-primary rounded-0">
-                Start
+                <i class="fas fa-lock"></i> Start
               </button>
             </div>
           </div>
